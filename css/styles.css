@@ -46,6 +46,7 @@ img {
 /*======== header =======*/
 .header {
 	padding: 25px 0;
+	border: 1px solid #ececec;
 }
 .header .conteiner {
 	display: flex;
@@ -138,8 +139,7 @@ img {
 	background: #2f303a;
 	text-align: center;
 	padding-top: 200px;
-	padding-bottom: 280px;
-	margin-bottom: 94px;
+	padding-bottom: 200px;
 }
 .hero-title {
 	margin-top: 0px;
@@ -177,8 +177,9 @@ img {
 /*======= end hero =======*/
 
 /*======= our advantages =======*/
-.our-advantages .conteiner {
-	margin-bottom: 94px;
+.our-advantages {
+	padding-bottom: 94px;
+	padding-top: 94px;
 }
 
 .our-advantages-list {

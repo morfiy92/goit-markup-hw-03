@@ -221,8 +221,8 @@ img {
 /*======= end our advantages =======*/
 
 /*======= what-are-we-doing ======*/
-.what-are-we-doing .conteiner {
-	margin-bottom: 94px;
+.what-are-we-doing {
+	padding-bottom: 94px;
 }
 
 .what-are-we-doing-list {
@@ -256,7 +256,7 @@ img {
 	background: var(--bgd-color);
 }
 
-.our-team .conteiner {
+.our-team {
 	padding-bottom: 94px;
 	padding-top: 94px;
 }
@@ -385,8 +385,11 @@ img {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	margin-bottom: 50px;
-	margin-top: 94px;
+}
+
+.pottfolio-filters {
+	padding-bottom: 50px;
+	padding-top: 94px;
 }
 
 .pottfolio-filters-list-item:not(:last-child) {
@@ -418,7 +421,7 @@ img {
 
 /*======= pottfolio projects =======*/
 .projects {
-	margin-bottom: 94px;
+	padding-bottom: 94px;
 }
 
 .projects-list {
